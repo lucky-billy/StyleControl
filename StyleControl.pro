@@ -33,3 +33,9 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 RESOURCES += \
     images.qrc \
     qss.qrc
+
+TARGET = QSSDemo
+
+DESTDIR = ./
+
+RC_ICONS = icon.ico

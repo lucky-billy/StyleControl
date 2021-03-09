@@ -7,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    setWindowTitle("MyQSSDemo");
 
     connect(ui->action_style1, &QAction::triggered, [&](){ changeStyle(0); });
     connect(ui->action_style2, &QAction::triggered, [&](){ changeStyle(1); });
@@ -22,7 +23,7 @@ void MainWindow::changeStyle(int type)
     QString fileName = "";
     switch ( type )
     {
-    case 1: fileName = "gray.css"; break;
+    case 1: fileName = "gray.qss"; break;
     default: {
         this->setStyleSheet("");
         return;
