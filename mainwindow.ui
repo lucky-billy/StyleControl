@@ -40,36 +40,10 @@
      <string>...</string>
     </property>
    </widget>
-   <widget class="QRadioButton" name="radioButton">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>70</y>
-      <width>91</width>
-      <height>18</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>RadioButton</string>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="checkBox">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>100</y>
-      <width>73</width>
-      <height>18</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>CheckBox</string>
-    </property>
-   </widget>
    <widget class="QTableView" name="tableView">
     <property name="geometry">
      <rect>
-      <x>275</x>
+      <x>270</x>
       <y>10</y>
       <width>256</width>
       <height>192</height>
@@ -90,22 +64,67 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>380</y>
-      <width>120</width>
-      <height>80</height>
+      <y>70</y>
+      <width>250</width>
+      <height>90</height>
      </rect>
     </property>
     <property name="title">
      <string>GroupBox</string>
     </property>
+    <widget class="QRadioButton" name="radioButton">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>91</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>91</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_3">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>30</y>
+       <width>91</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>RadioButton</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QScrollArea" name="scrollArea">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>380</y>
-      <width>120</width>
-      <height>80</height>
+      <x>10</x>
+      <y>170</y>
+      <width>250</width>
+      <height>90</height>
      </rect>
     </property>
     <property name="widgetResizable">
@@ -116,10 +135,52 @@
       <rect>
        <x>0</x>
        <y>0</y>
-       <width>118</width>
-       <height>78</height>
+       <width>248</width>
+       <height>88</height>
       </rect>
      </property>
+     <widget class="QCommandLinkButton" name="commandLinkButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>168</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>CommandLinkButton</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>73</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_2">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>60</y>
+        <width>73</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+     </widget>
     </widget>
    </widget>
    <widget class="QToolBox" name="toolBox">
@@ -164,7 +225,7 @@
    <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>275</x>
+      <x>270</x>
       <y>210</y>
       <width>127</width>
       <height>80</height>
@@ -187,7 +248,7 @@
    <widget class="QSpinBox" name="spinBox">
     <property name="geometry">
      <rect>
-      <x>275</x>
+      <x>270</x>
       <y>330</y>
       <width>42</width>
       <height>22</height>
@@ -197,7 +258,7 @@
    <widget class="QDoubleSpinBox" name="doubleSpinBox">
     <property name="geometry">
      <rect>
-      <x>275</x>
+      <x>270</x>
       <y>370</y>
       <width>62</width>
       <height>22</height>
@@ -207,8 +268,8 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>275</x>
-      <y>450</y>
+      <x>540</x>
+      <y>340</y>
       <width>100</width>
       <height>20</height>
      </rect>
@@ -221,8 +282,8 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>180</y>
-      <width>256</width>
+      <y>270</y>
+      <width>250</width>
       <height>192</height>
      </rect>
     </property>
@@ -230,8 +291,8 @@
    <widget class="QLCDNumber" name="lcdNumber">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>310</y>
+      <x>400</x>
+      <y>440</y>
       <width>64</width>
       <height>23</height>
      </rect>
@@ -240,8 +301,8 @@
    <widget class="QProgressBar" name="progressBar">
     <property name="geometry">
      <rect>
-      <x>275</x>
-      <y>410</y>
+      <x>270</x>
+      <y>440</y>
       <width>118</width>
       <height>23</height>
      </rect>
@@ -280,24 +341,11 @@
      </rect>
     </property>
    </widget>
-   <widget class="QCommandLinkButton" name="commandLinkButton">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>130</y>
-      <width>168</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>CommandLinkButton</string>
-    </property>
-   </widget>
    <widget class="QComboBox" name="comboBox">
     <property name="geometry">
      <rect>
-      <x>415</x>
-      <y>350</y>
+      <x>540</x>
+      <y>380</y>
       <width>72</width>
       <height>22</height>
      </rect>
@@ -331,7 +379,7 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>275</x>
+      <x>270</x>
       <y>300</y>
       <width>113</width>
       <height>20</height>
@@ -341,8 +389,8 @@
    <widget class="QSlider" name="horizontalSlider">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>350</y>
+      <x>270</x>
+      <y>410</y>
       <width>160</width>
       <height>16</height>
      </rect>
@@ -355,7 +403,7 @@
     <property name="geometry">
      <rect>
       <x>540</x>
-      <y>380</y>
+      <y>300</y>
       <width>160</width>
       <height>16</height>
      </rect>
@@ -367,8 +415,8 @@
    <widget class="QScrollBar" name="verticalScrollBar">
     <property name="geometry">
      <rect>
-      <x>720</x>
-      <y>320</y>
+      <x>710</x>
+      <y>300</y>
       <width>16</width>
       <height>160</height>
      </rect>
@@ -377,17 +425,36 @@
      <enum>Qt::Vertical</enum>
     </property>
    </widget>
-   <widget class="QSlider" name="verticalSlider">
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>750</x>
-      <y>320</y>
-      <width>16</width>
-      <height>160</height>
+      <x>130</x>
+      <y>10</y>
+      <width>80</width>
+      <height>20</height>
      </rect>
     </property>
-    <property name="orientation">
-     <enum>Qt::Vertical</enum>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>40</y>
+      <width>38</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
     </property>
    </widget>
   </widget>
@@ -415,10 +482,18 @@
     <addaction name="action_style1"/>
     <addaction name="action_style2"/>
    </widget>
+   <widget class="QMenu" name="menu">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="title">
+     <string>禁用菜单</string>
+    </property>
+   </widget>
    <addaction name="menuFile"/>
+   <addaction name="menu"/>
    <addaction name="menuStyle"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
   <widget class="QToolBar" name="toolBar">
    <property name="windowTitle">
     <string>toolBar</string>
