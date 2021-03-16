@@ -5,5 +5,9 @@
         <file>images/Folder.png</file>
         <file>images/Gear.png</file>
         <file>images/Lock.png</file>
+        <file>qss/gray/box_bottom.png</file>
+        <file>qss/gray/box_left.png</file>
+        <file>qss/gray/box_right.png</file>
+        <file>qss/gray/box_top.png</file>
     </qresource>
 </RCC>
