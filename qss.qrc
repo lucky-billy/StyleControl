@@ -1,5 +1,11 @@
 <RCC>
     <qresource prefix="/">
         <file>qss/gray.qss</file>
+        <file>qss/black.qss</file>
+        <file>qss/blue.qss</file>
+        <file>qss/brown.qss</file>
+        <file>qss/green.qss</file>
+        <file>qss/silvery.qss</file>
+        <file>qss/white.qss</file>
     </qresource>
 </RCC>
