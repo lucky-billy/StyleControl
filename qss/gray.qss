@@ -98,6 +98,7 @@ background-color: #C0C0C0;
 
 QToolBar QToolButton:disabled {
 background-color: none;
+color: #A6A5A5;
 }
 
 
@@ -121,6 +122,7 @@ background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #DC
 
 QPushButton:disabled, QToolButton:disabled {
 background-color: #DCDCDC;
+color: #A6A5A5;
 }
 
 
@@ -385,6 +387,22 @@ background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0
 }
 
 
+/* QProgressBar */
+
+QProgressBar {
+min-height: 10px;
+text-align: center;
+border: 1px solid #A9A9A9;
+border-radius: 2px;
+background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E4E4E4, stop:1 #A2A2A2);
+}
+
+QProgressBar:chunk {
+border-radius: 2px;
+background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #DCDCDC, stop:1 #696969);
+}
+
+
 /* QScrollBar */
 
 QScrollBar:horizontal {
@@ -493,22 +511,6 @@ background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E4E4E4, 
 
 QScrollBar::sub-line:vertical:pressed {
 background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E4E4E4, stop:1 #A2A2A2);
-}
-
-
-/* QProgressBar */
-
-QProgressBar {
-min-height: 10px;
-text-align: center;
-border: 1px solid #A9A9A9;
-border-radius: 2px;
-background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E4E4E4, stop:1 #A2A2A2);
-}
-
-QProgressBar:chunk {
-border-radius: 2px;
-background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #DCDCDC, stop:1 #696969);
 }
 
 
