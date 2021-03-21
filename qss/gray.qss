@@ -1,16 +1,4 @@
 /*
- * #FFFFFF  white
- * #DDDDDD    |
- * #C0C0C0    |
- * #969696    |
- * #808080    |
- * #646464    |
- * #4B4B4B    |
- * #242424    v
- * #000000  black
- */
-
-/*
  * BorderColor: #A9A9A9
  *
  * NormalColorStart: #E4E4E4
@@ -261,7 +249,7 @@ font-size: 12px;
 border-style: none;
 border: 1px solid #A9A9A9;
 border-radius: 2px;
-background-color:qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #A2A2A2, stop:0.5 #E4E4E4, stop:0.8 #E4E4E4, stop:1 #F0F0F0);
+background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #A2A2A2, stop:0.5 #E4E4E4, stop:0.8 #E4E4E4, stop:1 #F0F0F0);
 }
 
 
@@ -568,16 +556,16 @@ background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #DBDBDB, 
 
 /* QComboBox */
 
+QComboBox{
+border-radius: 2px;
+border: 1px solid #A9A9A9;
+}
+
 QComboBox::down-arrow {
 width: 10px;
 height: 10px;
 right: 2px;
 image: url(:/qss/gray/add_bottom.png);
-}
-
-QComboBox{
-border-radius: 2px;
-border: 1px solid #A9A9A9;
 }
 
 QComboBox::drop-down {
@@ -590,23 +578,3 @@ border-top-right-radius: 2px;
 border-bottom-right-radius: 2px;
 border-left-color: #A9A9A9;
 }
-
-QComboBox QAbstractItemView::item {
-min-height: 20px;
-min-width: 10px;
-}
-
-QComboBox QAbstractItemView::item:selected {
-background-color: #A6A5A5;
-color: white;
-}
-
-QComboBox QAbstractItemView {
-outline: 0px;
-}
-
-QComboBox QFrame {
-border-radius: 2px;
-border: 1px solid #A9A9A9;
-}
-

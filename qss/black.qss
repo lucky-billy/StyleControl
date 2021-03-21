@@ -1,12 +1,38 @@
 /*
- * BorderColor: #353535
+ * FontColor-nor:               #1C1C1C
+ * FontColor-spl:               #F0F0F0
+ * FontColor-dis:               #A6A5A5
  *
- * NormalColorStart: #808080
- * NormalColorEnd: #646464
- * HoverColorStart: #969696
- * HoverColorEnd: #808080
- * PressedColorStart: #646464
- * PressedColorEnd: #4B4B4B
+ * BorderColor-nor:             #353535
+ * BorderColor-spl:             #3366FF
+ * BorderColor-dis:             #A9A9A9
+ *
+ * MenuBarBackgroundColor:      #4B4B4B
+ * MenuBarHoverColor:           #A6A5A5
+ * MenuHoverColor:              #636363
+ * MenuSeparatorColor:          BorderColor-nor
+ *
+ * HeaderColorStart:            #566573
+ * HeaderColorEnd:              #273746
+ *
+ * HoverColorStart:             #969696
+ * HoverColorEnd:               #808080
+ * NormalColorStart:            #808080
+ * NormalColorEnd:              #646464
+ * PressedColorStart:           #646464
+ * PressedColorEnd:             #4B4B4B
+ *
+ * SelectionBackgroundColor:    MenuBarBackgroundColor
+ * LineEdieHoverColor:          MenuBarHoverColor
+ *
+ * SliderStartColor:            #CFCFCF
+ * SliderEndColor:              #363636
+ * ProgressBarStartColor:       PressedColorStart
+ * ProgressBarEndColor:         PressedColorEnd
+ *
+ * ScrollBarBackgroundColor:    #B5B5B5
+ * ScrollBarHandleNormalColor:  #9C9C9C
+ * ScrollBarHandleHoverColor:   #4F4F4F
  */
 
 
@@ -260,7 +286,7 @@ font-size: 12px;
 border-style: none;
 border: 1px solid #353535;
 border-radius: 2px;
-background-color:qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #4B4B4B, stop:0.5 #808080, stop:0.8 #C0C0C0, stop:1 #F0F0F0);
+background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #4B4B4B, stop:0.5 #808080, stop:0.8 #C0C0C0, stop:1 #F0F0F0);
 color: #F0F0F0;
 }
 
@@ -571,16 +597,16 @@ color: #F0F0F0;
 
 /* QComboBox */
 
+QComboBox{
+border-radius: 2px;
+border: 1px solid #353535;
+}
+
 QComboBox::down-arrow {
 width: 10px;
 height: 10px;
 right: 2px;
 image: url(:/qss/black/add_bottom.png);
-}
-
-QComboBox{
-border-radius: 2px;
-border: 1px solid #353535;
 }
 
 QComboBox::drop-down {
@@ -592,23 +618,4 @@ border-left-style: solid;
 border-top-right-radius: 2px;
 border-bottom-right-radius: 2px;
 border-left-color: #353535;
-}
-
-QComboBox QAbstractItemView::item {
-min-height: 20px;
-min-width: 10px;
-}
-
-QComboBox QAbstractItemView::item:selected {
-background-color: #636363;
-color: white;
-}
-
-QComboBox QAbstractItemView {
-outline: 0px;
-}
-
-QComboBox QFrame {
-border-radius: 2px;
-border: 1px solid #353535;
 }
