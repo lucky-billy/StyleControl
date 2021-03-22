@@ -142,13 +142,51 @@
     <property name="title">
      <string>GroupBox</string>
     </property>
-    <widget class="QRadioButton" name="radioButton">
+    <widget class="QCheckBox" name="checkBox_2">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
      <property name="geometry">
       <rect>
        <x>10</x>
        <y>30</y>
-       <width>91</width>
-       <height>18</height>
+       <width>100</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CheckBox</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_4">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>100</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>CheckBox</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="radioButton_2">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>30</y>
+       <width>120</width>
+       <height>20</height>
       </rect>
      </property>
      <property name="text">
@@ -158,105 +196,21 @@
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QRadioButton" name="radioButton_2">
-     <property name="enabled">
-      <bool>true</bool>
-     </property>
-     <property name="geometry">
-      <rect>
-       <x>10</x>
-       <y>60</y>
-       <width>91</width>
-       <height>18</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>RadioButton</string>
-     </property>
-    </widget>
-    <widget class="QRadioButton" name="radioButton_3">
+    <widget class="QRadioButton" name="radioButton_4">
      <property name="enabled">
       <bool>false</bool>
      </property>
      <property name="geometry">
       <rect>
-       <x>120</x>
-       <y>30</y>
-       <width>91</width>
-       <height>18</height>
+       <x>110</x>
+       <y>60</y>
+       <width>120</width>
+       <height>20</height>
       </rect>
      </property>
      <property name="text">
       <string>RadioButton</string>
      </property>
-    </widget>
-   </widget>
-   <widget class="QScrollArea" name="scrollArea">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>170</y>
-      <width>250</width>
-      <height>90</height>
-     </rect>
-    </property>
-    <property name="widgetResizable">
-     <bool>true</bool>
-    </property>
-    <widget class="QWidget" name="scrollAreaWidgetContents">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>248</width>
-       <height>88</height>
-      </rect>
-     </property>
-     <widget class="QCommandLinkButton" name="commandLinkButton">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>10</y>
-        <width>168</width>
-        <height>41</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>CommandLinkButton</string>
-      </property>
-     </widget>
-     <widget class="QCheckBox" name="checkBox">
-      <property name="geometry">
-       <rect>
-        <x>10</x>
-        <y>60</y>
-        <width>73</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>CheckBox</string>
-      </property>
-      <property name="checked">
-       <bool>true</bool>
-      </property>
-     </widget>
-     <widget class="QCheckBox" name="checkBox_2">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
-      <property name="geometry">
-       <rect>
-        <x>120</x>
-        <y>60</y>
-        <width>73</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>CheckBox</string>
-      </property>
-     </widget>
     </widget>
    </widget>
    <widget class="QTabWidget" name="tabWidget">
@@ -477,9 +431,9 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>270</y>
+      <y>250</y>
       <width>250</width>
-      <height>150</height>
+      <height>160</height>
      </rect>
     </property>
     <column>
@@ -545,7 +499,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>430</y>
+      <y>420</y>
       <width>251</width>
       <height>100</height>
      </rect>
@@ -665,6 +619,90 @@
      </property>
     </item>
    </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>170</y>
+      <width>250</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>248</width>
+       <height>68</height>
+      </rect>
+     </property>
+     <widget class="QRadioButton" name="radioButton">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>10</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>RadioButton</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>100</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>100</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>CheckBox</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_3">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>40</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>RadioButton</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -701,8 +739,8 @@
     <addaction name="action_style_brown"/>
     <addaction name="action_style_gray"/>
     <addaction name="action_style_green"/>
+    <addaction name="action_style_purple"/>
     <addaction name="action_style_silvery"/>
-    <addaction name="action_style_white"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menu"/>
@@ -816,9 +854,12 @@
     <string>爆炎黑</string>
    </property>
   </action>
-  <action name="action_style_white">
+  <action name="action_style_purple">
    <property name="text">
-    <string>霹雳白</string>
+    <string>梦幻紫</string>
+   </property>
+   <property name="toolTip">
+    <string>梦幻紫</string>
    </property>
   </action>
   <action name="action_style_silvery">

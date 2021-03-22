@@ -17,8 +17,8 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->action_style_brown,     &QAction::triggered, [&](){ changeStyle(3); });
     connect(ui->action_style_gray,      &QAction::triggered, [&](){ changeStyle(4); });
     connect(ui->action_style_green,     &QAction::triggered, [&](){ changeStyle(5); });
-    connect(ui->action_style_silvery,   &QAction::triggered, [&](){ changeStyle(6); });
-    connect(ui->action_style_white,     &QAction::triggered, [&](){ changeStyle(7); });
+    connect(ui->action_style_purple,    &QAction::triggered, [&](){ changeStyle(6); });
+    connect(ui->action_style_silvery,   &QAction::triggered, [&](){ changeStyle(7); });
 }
 
 MainWindow::~MainWindow()
@@ -36,8 +36,8 @@ void MainWindow::changeStyle(int type)
     case 3: fileName = "brown.qss"; break;
     case 4: fileName = "gray.qss"; break;
     case 5: fileName = "green.qss"; break;
-    case 6: fileName = "silvery.qss"; break;
-    case 7: fileName = "white.qss"; break;
+    case 6: fileName = "purple.qss"; break;
+    case 7: fileName = "silvery.qss"; break;
     default: {
         this->setStyleSheet("");
         return;

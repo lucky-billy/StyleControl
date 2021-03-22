@@ -199,14 +199,6 @@ QCheckBox::indicator:checked:disabled {
 image: url(:/qss/blue/checkbox_checked_disable.png);
 }
 
-QCheckBox::indicator:indeterminate {
-image: url(:/qss/blue/checkbox_parcial.png);
-}
-
-QCheckBox::indicator:indeterminate:disabled {
-image: url(:/qss/blue/checkbox_parcial_disable.png);
-}
-
 
 /* QLineEdit */
 

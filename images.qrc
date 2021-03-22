@@ -11,12 +11,8 @@
         <file>qss/gray/add_top.png</file>
         <file>qss/gray/branch_close.png</file>
         <file>qss/gray/branch_open.png</file>
-        <file>qss/gray/calendar_nextmonth.png</file>
-        <file>qss/gray/calendar_prevmonth.png</file>
         <file>qss/gray/checkbox_checked.png</file>
         <file>qss/gray/checkbox_checked_disable.png</file>
-        <file>qss/gray/checkbox_parcial.png</file>
-        <file>qss/gray/checkbox_parcial_disable.png</file>
         <file>qss/gray/checkbox_unchecked.png</file>
         <file>qss/gray/checkbox_unchecked_disable.png</file>
         <file>qss/gray/radiobutton_checked.png</file>
@@ -29,12 +25,8 @@
         <file>qss/black/add_top.png</file>
         <file>qss/black/branch_close.png</file>
         <file>qss/black/branch_open.png</file>
-        <file>qss/black/calendar_nextmonth.png</file>
-        <file>qss/black/calendar_prevmonth.png</file>
         <file>qss/black/checkbox_checked.png</file>
         <file>qss/black/checkbox_checked_disable.png</file>
-        <file>qss/black/checkbox_parcial.png</file>
-        <file>qss/black/checkbox_parcial_disable.png</file>
         <file>qss/black/checkbox_unchecked.png</file>
         <file>qss/black/checkbox_unchecked_disable.png</file>
         <file>qss/black/radiobutton_checked.png</file>
@@ -47,12 +39,8 @@
         <file>qss/blue/add_top.png</file>
         <file>qss/blue/branch_close.png</file>
         <file>qss/blue/branch_open.png</file>
-        <file>qss/blue/calendar_nextmonth.png</file>
-        <file>qss/blue/calendar_prevmonth.png</file>
         <file>qss/blue/checkbox_checked.png</file>
         <file>qss/blue/checkbox_checked_disable.png</file>
-        <file>qss/blue/checkbox_parcial.png</file>
-        <file>qss/blue/checkbox_parcial_disable.png</file>
         <file>qss/blue/checkbox_unchecked.png</file>
         <file>qss/blue/checkbox_unchecked_disable.png</file>
         <file>qss/blue/radiobutton_checked.png</file>
@@ -65,12 +53,8 @@
         <file>qss/brown/add_top.png</file>
         <file>qss/brown/branch_close.png</file>
         <file>qss/brown/branch_open.png</file>
-        <file>qss/brown/calendar_nextmonth.png</file>
-        <file>qss/brown/calendar_prevmonth.png</file>
         <file>qss/brown/checkbox_checked.png</file>
         <file>qss/brown/checkbox_checked_disable.png</file>
-        <file>qss/brown/checkbox_parcial.png</file>
-        <file>qss/brown/checkbox_parcial_disable.png</file>
         <file>qss/brown/checkbox_unchecked.png</file>
         <file>qss/brown/checkbox_unchecked_disable.png</file>
         <file>qss/brown/radiobutton_checked.png</file>
@@ -83,12 +67,8 @@
         <file>qss/green/add_top.png</file>
         <file>qss/green/branch_close.png</file>
         <file>qss/green/branch_open.png</file>
-        <file>qss/green/calendar_nextmonth.png</file>
-        <file>qss/green/calendar_prevmonth.png</file>
         <file>qss/green/checkbox_checked.png</file>
         <file>qss/green/checkbox_checked_disable.png</file>
-        <file>qss/green/checkbox_parcial.png</file>
-        <file>qss/green/checkbox_parcial_disable.png</file>
         <file>qss/green/checkbox_unchecked.png</file>
         <file>qss/green/checkbox_unchecked_disable.png</file>
         <file>qss/green/radiobutton_checked.png</file>
@@ -101,17 +81,27 @@
         <file>qss/silvery/add_top.png</file>
         <file>qss/silvery/branch_close.png</file>
         <file>qss/silvery/branch_open.png</file>
-        <file>qss/silvery/calendar_nextmonth.png</file>
-        <file>qss/silvery/calendar_prevmonth.png</file>
         <file>qss/silvery/checkbox_checked.png</file>
         <file>qss/silvery/checkbox_checked_disable.png</file>
-        <file>qss/silvery/checkbox_parcial.png</file>
-        <file>qss/silvery/checkbox_parcial_disable.png</file>
         <file>qss/silvery/checkbox_unchecked.png</file>
         <file>qss/silvery/checkbox_unchecked_disable.png</file>
         <file>qss/silvery/radiobutton_checked.png</file>
         <file>qss/silvery/radiobutton_checked_disable.png</file>
         <file>qss/silvery/radiobutton_unchecked.png</file>
         <file>qss/silvery/radiobutton_unchecked_disable.png</file>
+        <file>qss/purple/add_bottom.png</file>
+        <file>qss/purple/add_left.png</file>
+        <file>qss/purple/add_right.png</file>
+        <file>qss/purple/add_top.png</file>
+        <file>qss/purple/branch_close.png</file>
+        <file>qss/purple/branch_open.png</file>
+        <file>qss/purple/checkbox_checked.png</file>
+        <file>qss/purple/checkbox_checked_disable.png</file>
+        <file>qss/purple/checkbox_unchecked.png</file>
+        <file>qss/purple/checkbox_unchecked_disable.png</file>
+        <file>qss/purple/radiobutton_checked.png</file>
+        <file>qss/purple/radiobutton_checked_disable.png</file>
+        <file>qss/purple/radiobutton_unchecked.png</file>
+        <file>qss/purple/radiobutton_unchecked_disable.png</file>
     </qresource>
 </RCC>
