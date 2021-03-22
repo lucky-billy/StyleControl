@@ -1,12 +1,41 @@
 /*
- * BorderColor: #A9A9A9
+ * FontColor-nor:                       #1C1C1C
+ * FontColor-spl:                       #F0F0F0
+ * FontColor-dis:                       #A6A5A5
  *
- * NormalColorStart: #E4E4E4
- * NormalColorEnd: #A2A2A2
- * HoverColorStart: #DBDBDB
- * HoverColorEnd: #C1C1C1
- * PressedColorStart: #DCDCDC
- * PressedColorEnd: #696969
+ * BorderColor-nor:                     #A9A9A9
+ * BorderColor-spl:                     #3366FF
+ * BorderColor-dis:                     #DCDCDC
+ *
+ * MenuBarBackgroundColor:              #E4E4E4
+ * MenuBarHoverColor:                   #A6A5A5
+ * MenuHoverColor:                      #DCDCDC
+ * MenuSeparatorColor:                  BorderColor-nor
+ *
+ * HeaderColorStart:                    #566573
+ * HeaderColorEnd:                      #273746
+ *
+ * HoverColorStart:                     #DBDBDB
+ * HoverColorEnd:                       #C1C1C1
+ * NormalColorStart:                    #E4E4E4
+ * NormalColorEnd:                      #A2A2A2
+ * PressedColorStart:                   #DCDCDC
+ * PressedColorEnd:                     #696969
+ *
+ * LineEdieSelectionBackgroundColor:    #0066CC
+ * LineEdieHoverColor:                  MenuHoverColor
+ *
+ * SliderStartColor:                    #F0F0F0
+ * SliderEndColor:                      #A9A9A9
+ * ProgressBarStartColor:               PressedColorStart
+ * ProgressBarEndColor:                 PressedColorEnd
+ *
+ * ScrollBarBackgroundColor:            #E4E4E4
+ * ScrollBarHandleNormalColor:          #C1C1C1
+ * ScrollBarHandleHoverColor:           #A9A9A9
+ *
+ * TreeViewSelectionBackgroundColor:    SliderEndColor
+ * AlternateSelectionBackgroundColor:   NormalColorStart
  */
 
 
@@ -17,12 +46,12 @@ background-color: #E4E4E4;
 }
 
 QMenuBar::item {
-color: #000000;
+color: #1C1C1C;
 }
 
 QMenuBar::item:selected, QMenuBar::item:pressed {
 background-color: #A6A5A5;
-color: #FFFFFF;
+color: #F0F0F0;
 }
 
 QMenuBar::item:disabled, QMenuBar::item:disabled:hover, QMenuBar::item:disabled:pressed {
@@ -176,7 +205,7 @@ QLineEdit {
 border: 1px solid #A9A9A9;
 border-radius: 2px;
 padding-left: 0px;
-background: #FFFFFF;
+background: #F0F0F0;
 selection-background-color: #0066CC;
 font-family: "SF Pro";
 font-size: 12px;
@@ -187,9 +216,9 @@ background-color: none;
 }
 
 QLineEdit:hover {
-border: 1px solid #000000;
+border: 1px solid #1C1C1C;
 border-radius: 2px;
-background: #DDDDDD;
+background: #DCDCDC;
 }
 
 QLineEdit:focus:!hover {
@@ -249,7 +278,7 @@ font-size: 12px;
 border-style: none;
 border: 1px solid #A9A9A9;
 border-radius: 2px;
-background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #A2A2A2, stop:0.5 #E4E4E4, stop:0.8 #E4E4E4, stop:1 #F0F0F0);
+background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #A2A2A2, stop:0.5 #E4E4E4, stop:0.8 #DBDBDB, stop:1 #F0F0F0);
 }
 
 
@@ -506,9 +535,9 @@ background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E4E4E4, 
 
 QTreeView, QListView, QTableView, QTabWidget::pane {
 border: 1px solid #A9A9A9;
-selection-background-color: #DBDBDB;
-selection-color: #000000;
-alternate-background-color: #C1C1C1;
+selection-background-color: #A9A9A9;
+selection-color: #1C1C1C;
+alternate-background-color: #E4E4E4;
 gridline-color: #A9A9A9;
 }
 
@@ -527,13 +556,13 @@ background: #F0F0F0;
 }
 
 QTableView::item:selected, QListView::item:selected, QTreeView::item:selected {
-color: #000000;
 background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E4E4E4, stop:1 #A2A2A2);
+color: #1C1C1C;
 }
 
 QTableView::item:hover, QListView::item:hover, QTreeView::item:hover {
-color: #000000;
 background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #DBDBDB, stop:1 #C1C1C1);
+color: #1C1C1C;
 }
 
 QTableView::item, QListView::item, QTreeView::item {
@@ -544,13 +573,13 @@ margin: 0px;
 QHeaderView::section, QTableCornerButton:section {
 padding: 3px;
 margin: 0px;
-color: #000000;
 border: 1px solid #A9A9A9;
 border-left-width: 0px;
 border-right-width: 1px;
 border-top-width: 0px;
 border-bottom-width: 1px;
 background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #DBDBDB, stop:1 #C1C1C1);
+color: #1C1C1C;
 }
 
 

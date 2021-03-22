@@ -1,38 +1,41 @@
 /*
- * FontColor-nor:               #1C1C1C
- * FontColor-spl:               #F0F0F0
- * FontColor-dis:               #A6A5A5
+ * FontColor-nor:                       #F0F0F0
+ * FontColor-spl:                       #1C1C1C
+ * FontColor-dis:                       #A6A5A5
  *
- * BorderColor-nor:             #353535
- * BorderColor-spl:             #3366FF
- * BorderColor-dis:             #A9A9A9
+ * BorderColor-nor:                     #353535
+ * BorderColor-spl:                     #3366FF
+ * BorderColor-dis:                     #A9A9A9
  *
- * MenuBarBackgroundColor:      #4B4B4B
- * MenuBarHoverColor:           #A6A5A5
- * MenuHoverColor:              #636363
- * MenuSeparatorColor:          BorderColor-nor
+ * MenuBarBackgroundColor:              #4B4B4B
+ * MenuBarHoverColor:                   #A6A5A5
+ * MenuHoverColor:                      #636363
+ * MenuSeparatorColor:                  BorderColor-nor
  *
- * HeaderColorStart:            #566573
- * HeaderColorEnd:              #273746
+ * HeaderColorStart:                    #4F4F4F
+ * HeaderColorEnd:                      #1C1C1C
  *
- * HoverColorStart:             #969696
- * HoverColorEnd:               #808080
- * NormalColorStart:            #808080
- * NormalColorEnd:              #646464
- * PressedColorStart:           #646464
- * PressedColorEnd:             #4B4B4B
+ * HoverColorStart:                     #969696
+ * HoverColorEnd:                       #808080
+ * NormalColorStart:                    #808080
+ * NormalColorEnd:                      #646464
+ * PressedColorStart:                   #646464
+ * PressedColorEnd:                     #4B4B4B
  *
- * SelectionBackgroundColor:    MenuBarBackgroundColor
- * LineEdieHoverColor:          MenuBarHoverColor
+ * LineEdieSelectionBackgroundColor:    MenuBarBackgroundColor
+ * LineEdieHoverColor:                  MenuBarHoverColor
  *
- * SliderStartColor:            #CFCFCF
- * SliderEndColor:              #363636
- * ProgressBarStartColor:       PressedColorStart
- * ProgressBarEndColor:         PressedColorEnd
+ * SliderStartColor:                    #CFCFCF
+ * SliderEndColor:                      #363636
+ * ProgressBarStartColor:               PressedColorStart
+ * ProgressBarEndColor:                 PressedColorEnd
  *
- * ScrollBarBackgroundColor:    #B5B5B5
- * ScrollBarHandleNormalColor:  #9C9C9C
- * ScrollBarHandleHoverColor:   #4F4F4F
+ * ScrollBarBackgroundColor:            #B5B5B5
+ * ScrollBarHandleNormalColor:          #9C9C9C
+ * ScrollBarHandleHoverColor:           #4F4F4F
+ *
+ * TreeViewSelectionBackgroundColor:    SliderEndColor
+ * AlternateSelectionBackgroundColor:   NormalColorStart
  */
 
 
@@ -212,7 +215,7 @@ border: 1px solid #353535;
 border-radius: 2px;
 padding-left: 0px;
 background: none;
-selection-background-color: #4D4D4D;
+selection-background-color: #4B4B4B;
 selection-color: #F0F0F0;
 font-family: "SF Pro";
 font-size: 12px;
@@ -223,9 +226,9 @@ background-color: none;
 }
 
 QLineEdit:hover {
-border: 1px solid #000000;
+border: 1px solid #1C1C1C;
 border-radius: 2px;
-background: #DDDDDD;
+background: #A6A5A5;
 }
 
 QLineEdit:focus:!hover {
@@ -286,7 +289,7 @@ font-size: 12px;
 border-style: none;
 border: 1px solid #353535;
 border-radius: 2px;
-background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #4B4B4B, stop:0.5 #808080, stop:0.8 #C0C0C0, stop:1 #F0F0F0);
+background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #4B4B4B, stop:0.5 #808080, stop:0.8 #969696, stop:1 #F0F0F0);
 color: #F0F0F0;
 }
 
@@ -525,7 +528,7 @@ background: none;
 }
 
 QScrollBar::add-line:vertical {
-background: transparent;;
+background: transparent;
 image: url(:/qss/black/add_bottom.png);
 }
 
@@ -564,7 +567,7 @@ border-image: url(:/qss/black/branch_close.png);
 }
 
 QTreeView, QListView, QTableView, QSplitter::handle, QTreeView::branch {
-background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #808080, stop:1 #646464);;
+background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #808080, stop:1 #646464);
 }
 
 QTableView::item:selected, QListView::item:selected, QTreeView::item:selected {

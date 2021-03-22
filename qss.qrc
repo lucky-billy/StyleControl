@@ -6,6 +6,5 @@
         <file>qss/brown.qss</file>
         <file>qss/green.qss</file>
         <file>qss/silvery.qss</file>
-        <file>qss/white.qss</file>
     </qresource>
 </RCC>

@@ -113,23 +113,5 @@
         <file>qss/silvery/radiobutton_checked_disable.png</file>
         <file>qss/silvery/radiobutton_unchecked.png</file>
         <file>qss/silvery/radiobutton_unchecked_disable.png</file>
-        <file>qss/white/add_bottom.png</file>
-        <file>qss/white/add_left.png</file>
-        <file>qss/white/add_right.png</file>
-        <file>qss/white/add_top.png</file>
-        <file>qss/white/branch_close.png</file>
-        <file>qss/white/branch_open.png</file>
-        <file>qss/white/calendar_nextmonth.png</file>
-        <file>qss/white/calendar_prevmonth.png</file>
-        <file>qss/white/checkbox_checked.png</file>
-        <file>qss/white/checkbox_checked_disable.png</file>
-        <file>qss/white/checkbox_parcial.png</file>
-        <file>qss/white/checkbox_parcial_disable.png</file>
-        <file>qss/white/checkbox_unchecked.png</file>
-        <file>qss/white/checkbox_unchecked_disable.png</file>
-        <file>qss/white/radiobutton_checked.png</file>
-        <file>qss/white/radiobutton_checked_disable.png</file>
-        <file>qss/white/radiobutton_unchecked.png</file>
-        <file>qss/white/radiobutton_unchecked_disable.png</file>
     </qresource>
 </RCC>
