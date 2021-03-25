@@ -1,19 +1,14 @@
 /*
  * FontColor-nor:                       #1C1C1C
- * FontColor-spl:                       #F0F0F0
- * FontColor-dis:                       #A6A5A5
- *
  * BorderColor-nor:                     #B2B6B9
- * BorderColor-spl:                     #3366FF
- * BorderColor-dis:                     #A9A9A9
  *
  * MenuBarBackgroundColor:              #E1E4E6
  * MenuBarHoverColor:                   #F2F3F4
  * MenuHoverColor:                      #E1E5EA
  * MenuSeparatorColor:                  BorderColor-nor
  *
- * HeaderColorStart:                    #566573
- * HeaderColorEnd:                      #273746
+ * HeaderColorStart:                    #F2F3F4
+ * HeaderColorEnd:                      #E7E9EB
  *
  * HoverColorStart:                     #DCE4EA
  * HoverColorEnd:                       #D7DFE4
@@ -23,19 +18,19 @@
  * PressedColorEnd:                     #B9C5D5
  *
  * LineEdieSelectionBackgroundColor:    #8995A4
- * LineEdieHoverColor:                  MenuHoverColor
+ * LineEdieHoverColor:                  MenuBarBackgroundColor
  *
- * SliderStartColor:                    #DCE4EA
- * SliderEndColor:                      #B9C5D5
- * ProgressBarStartColor:               PressedColorStart
- * ProgressBarEndColor:                 PressedColorEnd
+ * SliderStartColor:                    HoverColorStart
+ * SliderEndColor:                      PressedColorEnd
+ * ProgressBar:                         HoverColorStart - HoverColorEnd
+ * ProgressBarChunk:                    PressedColorStart - PressedColorEnd
  *
  * ScrollBarBackgroundColor:            #F5F5F5
  * ScrollBarHandleNormalColor:          #D6D6D6
  * ScrollBarHandleHoverColor:           #C6C6C6
  *
- * TreeViewSelectionBackgroundColor:    SliderEndColor
- * AlternateSelectionBackgroundColor:   NormalColorStart
+ * TreeViewSelectionBackgroundColor:    HeaderColorStart
+ * TreeViewAlternateBackgroundColor:    NormalColorStart
  */
 
 
@@ -220,7 +215,7 @@ background-color: none;
 QLineEdit:hover {
 border: 1px solid #1C1C1C;
 border-radius: 2px;
-background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #DCE4EA, stop:1 #D7DFE4);
+background: #E1E4E6;
 }
 
 QLineEdit:focus:!hover {
@@ -281,7 +276,7 @@ font-size: 12px;
 border-style: none;
 border: 1px solid #B2B6B9;
 border-radius: 2px;
-background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #B9C5D5, stop:0.5 #D6D9DB, stop:0.8 #DCE4EA, stop:1 #F0F0F0);
+background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #C5CBD3, stop:0.5 #D6D9DB, stop:0.8 #DCE4EA, stop:1 #F0F0F0);
 color: #1C1C1C;
 }
 
@@ -544,7 +539,7 @@ QTreeView, QListView, QTableView, QTabWidget::pane {
 border: 1px solid #B2B6B9;
 selection-background-color: #F2F3F4;
 selection-color: #1C1C1C;
-alternate-background-color: #E7E9EB;
+alternate-background-color: #C7D1DB;
 gridline-color: #B2B6B9;
 }
 

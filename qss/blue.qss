@@ -1,11 +1,6 @@
 /*
  * FontColor-nor:                       #324C6C
- * FontColor-spl:                       #F0F0F0
- * FontColor-dis:                       #A6A5A5
- *
  * BorderColor-nor:                     #7F9AB8
- * BorderColor-spl:                     #3366FF
- * BorderColor-dis:                     #A9A9A9
  *
  * MenuBarBackgroundColor:              #A9CCE3
  * MenuBarHoverColor:                   #00B2EE
@@ -22,20 +17,20 @@
  * PressedColorStart:                   #AED6F1
  * PressedColorEnd:                     #85C1E9
  *
- * LineEdieSelectionBackgroundColor:    MenuBarBackgroundColor
- * LineEdieHoverColor:                  #D6EAF8
+ * LineEdieSelectionBackgroundColor:    MenuBarHoverColor
+ * LineEdieHoverColor:                  HoverColorEnd
  *
- * SliderStartColor:                    #CFCFCF
- * SliderEndColor:                      #363636
- * ProgressBarStartColor:               PressedColorStart
- * ProgressBarEndColor:                 PressedColorEnd
+ * SliderStartColor:                    HoverColorEnd
+ * SliderEndColor:                      PressedColorEnd
+ * ProgressBar:                         HoverColorStart - HoverColorEnd
+ * ProgressBarChunk:                    PressedColorStart - PressedColorEnd
  *
  * ScrollBarBackgroundColor:            #D4E6F1
  * ScrollBarHandleNormalColor:          #A9CCE3
  * ScrollBarHandleHoverColor:           #7FB3D5
  *
- * TreeViewSelectionBackgroundColor:    SliderEndColor
- * AlternateSelectionBackgroundColor:   NormalColorStart
+ * TreeViewSelectionBackgroundColor:    PressedColorEnd
+ * TreeViewAlternateBackgroundColor:    NormalColorStart
  */
 
 
@@ -282,7 +277,7 @@ font-size: 12px;
 border-style: none;
 border: 1px solid #7F9AB8;
 border-radius: 2px;
-background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #85C1E9, stop:0.5 #D6EAF8, stop:0.8 #EBF5FB, stop:1 #F0F0F0);
+background-color: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #AED6F1, stop:0.5 #D6EAF8, stop:0.8 #EBF5FB, stop:1 #F0F0F0);
 color: #324C6C;
 }
 
@@ -543,9 +538,9 @@ background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #AED6F1, 
 
 QTreeView, QListView, QTableView, QTabWidget::pane {
 border: 1px solid #7F9AB8;
-selection-background-color: #D2E3F5;
+selection-background-color: #85C1E9;
 selection-color: #324C6C;
-alternate-background-color: #CADDF3;
+alternate-background-color: #D6EAF8;
 gridline-color: #7F9AB8;
 }
 
